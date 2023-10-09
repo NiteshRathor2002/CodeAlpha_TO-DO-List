@@ -1,0 +1,42 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box
+}
+body{background-color:rgb(17, 78, 78);}
+.Main-container{height:100vh;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;}
+.container{width:10cm;
+    height: auto;
+background-color: chocolate;
+ text-align: center;
+ border-radius: 20px;
+padding: 10px;
+position: relative;}
+.container h1{margin: 10px;;}
+#hell{height:30px;
+text-align: center;
+border-radius: 10px;
+border:2px solid black;}
+#btn{height:30px;
+text-align: center;
+border-radius: 10px;
+padding:0 10px;
+background-color: dodgerblue;
+cursor: pointer;}
+.task ul{position: relative;
+    text-align: left;
+font-size: 20px;
+background-color: blanchedalmond;
+margin: 8px 0;
+padding: 7px 30px;
+border-radius: 20px;}
+
+.task ul i{position: absolute;
+right:20px;
+cursor: pointer;
+padding-bottom:  5px;}
+.task ul #circle{position: absolute;
+left:8px;}
